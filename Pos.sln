@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfaceAdapter", "InterfaceAdapter", "{9F556013-8035-492E-832F-814F32C0981E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{2C778CBF-3A65-4B53-86EB-8F1F295A5FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryEf", "RepositoryEf\RepositoryEf.csproj", "{6113DB4E-9108-4C58-94B9-CD2ED6174AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6113DB4E-9108-4C58-94B9-CD2ED6174AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6113DB4E-9108-4C58-94B9-CD2ED6174AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6113DB4E-9108-4C58-94B9-CD2ED6174AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6113DB4E-9108-4C58-94B9-CD2ED6174AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C778CBF-3A65-4B53-86EB-8F1F295A5FDF} = {9F556013-8035-492E-832F-814F32C0981E}
+		{6113DB4E-9108-4C58-94B9-CD2ED6174AC3} = {2C778CBF-3A65-4B53-86EB-8F1F295A5FDF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B92C49E-1E1B-4218-8DD8-8FC3C18FF744}
+	EndGlobalSection
+EndGlobal
